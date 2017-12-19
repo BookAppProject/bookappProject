@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="65dp"
+    android:paddingLeft="@dimen/fifteen_dp"
+    android:paddingRight="@dimen/fifteen_dp"
+    android:paddingVertical="@dimen/fifteen_dp"
+    android:background="@drawable/marble"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/editText"
+        android:paddingBottom="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="#15b8cd"
+        android:textStyle="bold"
+        android:layout_weight="0.42" />
+    <Button
+        android:id="@+id/books"
+        android:text="View latest books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for bookstore"
+        android:textColor="#212121" />
+
+    <Button
+
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050505"
+        android:textColor="#f2e3e3"
+        android:text="@string/signout"
+        android:onClick="Home"/>
+
+
+
+
+</LinearLayout>

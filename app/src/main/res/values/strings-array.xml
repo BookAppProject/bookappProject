@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="web_pages">
+        <item>"To kill a mockingbird"</item>
+        <item>"The Alchemist"</item>
+        <item>"What the dog saw"</item>
+        <item>"Wine"</item>
+        <item>"What to expect before you are expecting"</item>
+        <item>"Think and grow rich"</item>
+        <item>"The art of war"</item>
+        <item>"Archie Comic books"</item>
+
+    </string-array>
+</resources>
